@@ -32,7 +32,7 @@
         };
 
         movement {
-            display-name = "Raise";
+            display-name = "Movement";
             bindings = <
 &kp GRAVE  &trans  &trans  &trans   &trans   &trans                     &trans  &trans        &trans        &trans         &trans         &kp C_PLAY_PAUSE
 &trans     &trans  &trans  &trans   &trans   &trans                     &trans  &kp LC(LEFT)  &kp LS(TAB)   &kp TAB        &kp LC(RIGHT)  &trans
@@ -45,7 +45,7 @@
         };
 
         symbols {
-            display-name = "Raise";
+            display-name = "Symbols";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND     &kp LS(BACKSLASH)  &trans
@@ -58,7 +58,7 @@
         };
 
         numbers {
-            display-name = "Raise";
+            display-name = "Numbers";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)  &kp LS(LC(Z))
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans      &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans     &kp LC(Y)
